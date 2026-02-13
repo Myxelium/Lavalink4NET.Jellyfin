@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <!-- NuGet Package Metadata -->
+    <PackageId>Lavalink4NET.Jellyfin</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>YourName</Authors>
+    <Company>YourCompany</Company>
+    <Description>Extends Lavalink4NET with Jellyfin search support (jfsearch:) and utilities for custom search modes. Works with the Jellylink Lavalink plugin.</Description>
+    <PackageTags>lavalink;lavalink4net;jellyfin;discord;music;bot;jfsearch</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/YourUsername/Lavalink4NET.Jellyfin</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YourUsername/Lavalink4NET.Jellyfin</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <!-- Generate XML documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Lavalink4NET.Rest" Version="4.*" />
+  </ItemGroup>
+</Project>
