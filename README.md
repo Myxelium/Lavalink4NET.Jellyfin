@@ -1,7 +1,7 @@
 # Lavalink4NET.Jellyfin
 
 [![NuGet](https://img.shields.io/nuget/v/Lavalink4NET.Jellyfin.svg)](https://www.nuget.org/packages/Lavalink4NET.Jellyfin)
-[![License](https://img.shields.io/github/license/YourUsername/Lavalink4NET.Jellyfin)](LICENSE)
+[![License](https://img.shields.io/github/license/Myxelium/Lavalink4NET.Jellyfin)](LICENSE)
 
 Extends [Lavalink4NET](https://github.com/angelobreuer/Lavalink4NET) with Jellyfin search support (`jfsearch:`) and utilities for custom search modes. Works with the [Jellylink](https://github.com/YourUsername/Jellylink) Lavalink plugin.
 
@@ -439,7 +439,7 @@ public class PlayHandler
 - **.NET 8.0** or later
 - **Lavalink4NET 4.x**
 - **Lavalink Server** with appropriate plugins:
-  - [Jellylink](https://github.com/YourUsername/Jellylink) for Jellyfin support
+  - [Jellylink](https://github.com/Myxelium/Jellylink) for Jellyfin support
   - [LavaSrc](https://github.com/topi314/LavaSrc) for Spotify, Apple Music, Deezer support
 
 ---
