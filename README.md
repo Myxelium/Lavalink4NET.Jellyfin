@@ -3,7 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/Lavalink4NET.Jellyfin.svg)](https://www.nuget.org/packages/Lavalink4NET.Jellyfin)
 [![License](https://img.shields.io/github/license/Myxelium/Lavalink4NET.Jellyfin)](LICENSE)
 
-Extends [Lavalink4NET](https://github.com/angelobreuer/Lavalink4NET) with Jellyfin search support (`jfsearch:`) and utilities for custom search modes. Works with the [Jellylink](https://github.com/YourUsername/Jellylink) Lavalink plugin.
+Extends [Lavalink4NET](https://github.com/angelobreuer/Lavalink4NET) with Jellyfin search support (`jfsearch:`) and utilities for custom search modes. Works with the [Jellylink](https://github.com/Myxelium/Jellylink) Lavalink plugin.
 
 ## Table of Contents
 
